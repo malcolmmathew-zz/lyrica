@@ -1,0 +1,9 @@
+extends layout
+
+block content
+	h1.
+		Song Lists
+	ul
+		each user, i in songlist
+			li
+				user.title
